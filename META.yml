@@ -1,0 +1,28 @@
+---
+abstract: 'Distribution wrapper around DataTables'
+author:
+  - 'Marcel Gruenauer <marcel@cpan.org>'
+build_requires:
+  Test::More: 0.94
+configure_requires:
+  ExtUtils::MakeMaker: 6.58
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Web-Library-DataTables
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Moose: 0
+  Web::Library: 0
+  perl: 5.012000
+resources:
+  bugtracker: https://github.com/marcelgruenauer/Web-Library-DataTables/issues
+  homepage: https://github.com/marcelgruenauer/Web-Library-DataTables
+  repository: git://github.com/marcelgruenauer/Web-Library-DataTables.git
+version: 0.01

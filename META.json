@@ -1,0 +1,52 @@
+{
+   "abstract" : "Distribution wrapper around DataTables",
+   "author" : [
+      "Marcel Gruenauer <marcel@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Web-Library-DataTables",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.94"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.58"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : "0",
+            "Web::Library" : "0",
+            "perl" : "5.012000"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/marcelgruenauer/Web-Library-DataTables/issues"
+      },
+      "homepage" : "https://github.com/marcelgruenauer/Web-Library-DataTables",
+      "repository" : {
+         "url" : "git://github.com/marcelgruenauer/Web-Library-DataTables.git"
+      }
+   },
+   "version" : "0.01"
+}

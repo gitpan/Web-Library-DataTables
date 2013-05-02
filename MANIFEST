@@ -1,0 +1,23 @@
+Changes
+lib/Web/Library/DataTables.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README.md
+share/1.9.4/css/datatables.css
+share/1.9.4/images/back_disabled.png
+share/1.9.4/images/back_enabled.png
+share/1.9.4/images/back_enabled_hover.png
+share/1.9.4/images/forward_disabled.png
+share/1.9.4/images/forward_enabled.png
+share/1.9.4/images/forward_enabled_hover.png
+share/1.9.4/images/sort_asc.png
+share/1.9.4/images/sort_asc_disabled.png
+share/1.9.4/images/sort_both.png
+share/1.9.4/images/sort_desc.png
+share/1.9.4/images/sort_desc_disabled.png
+share/1.9.4/js/DT_bootstrap.js
+share/1.9.4/js/jquery.dataTables.min.js
+t/basic.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
