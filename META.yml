@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/marcelgruenauer/Web-Library-DataTables/issues
   homepage: https://github.com/marcelgruenauer/Web-Library-DataTables
   repository: git://github.com/marcelgruenauer/Web-Library-DataTables.git
-version: 0.01
+version: 0.02

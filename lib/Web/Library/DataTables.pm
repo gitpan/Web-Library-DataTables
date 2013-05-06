@@ -1,14 +1,14 @@
 package Web::Library::DataTables;
 use Moose;
 with qw(Web::Library::Provider Web::Library::SimpleAssets);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 sub latest_version { '1.9.4' }
 sub version_map {
 
     # all versions contain the same CSS and JS files
     +{  default => {
             css        => ['/css/datatables.css'],
-            javascript => ['js/jquery.dataTables.min.js']
+            javascript => ['/js/jquery.dataTables.min.js']
         }
     };
 }

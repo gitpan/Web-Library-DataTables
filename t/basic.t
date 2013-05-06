@@ -17,5 +17,5 @@ ok -e $wanted_file, "$wanted_file exists";
 eq_or_diff [ $manager->css_assets_for('DataTables') ],
   ['/css/datatables.css'], 'css_assets_for("DataTables") works';
 eq_or_diff [ $manager->javascript_assets_for('DataTables') ],
-  ['js/jquery.dataTables.min.js'], 'javascript_assets_for("DataTables") works';
+  ['/js/jquery.dataTables.min.js'], 'javascript_assets_for("DataTables") works';
 done_testing;
