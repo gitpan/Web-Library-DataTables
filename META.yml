@@ -19,10 +19,10 @@ no_index:
     - inc
 requires:
   Moose: 0
-  Web::Library: 0
+  Web::Library: 0.02
   perl: 5.012000
 resources:
   bugtracker: https://github.com/marcelgruenauer/Web-Library-DataTables/issues
   homepage: https://github.com/marcelgruenauer/Web-Library-DataTables
   repository: git://github.com/marcelgruenauer/Web-Library-DataTables.git
-version: 0.02
+version: 0.03

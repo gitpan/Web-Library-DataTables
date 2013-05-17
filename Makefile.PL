@@ -22,7 +22,7 @@ WriteMakefile(
     NAME             => $name,
     PREREQ_PM        => {
         'Moose'        => '0',
-        'Web::Library' => '0',
+        'Web::Library' => '0.02',
     },
     VERSION_FROM => $from,
     test         => { TESTS => 't/*.t' }

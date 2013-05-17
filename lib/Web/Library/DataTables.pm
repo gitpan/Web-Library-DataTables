@@ -1,7 +1,7 @@
 package Web::Library::DataTables;
 use Moose;
 with qw(Web::Library::Provider Web::Library::SimpleAssets);
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 sub latest_version { '1.9.4' }
 sub version_map {
 

@@ -1,5 +1,9 @@
 Revision history for Perl extension Web-Library-DataTables
 
+0.03 Fri May 17 09:04:41 2013 CEST
+    [Improvements]
+        - t/basic.t uses Web::Library::Test
+
 0.02 Mon May  6 16:47:32 2013 CEST
     [Bug Fixes]
         - Fixed path to JavaScript asset
